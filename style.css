@@ -6,7 +6,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(#f3f3fb 50%, #377dff 50%);
+  background: linear-gradient(#f3f3fb 50%, #ff3030 50%);
 }
 .wrapper {
   background-color: #ffffff;
@@ -55,7 +55,7 @@ select::-ms-expand {
 }
 select option {
   background-color: #ffffff;
-  color: #7c191c;
+  color: #377dff;
   letter-spacing: 0.06em;
   font-weight: 400;
   font-size: 1.12em;
