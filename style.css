@@ -115,3 +115,14 @@ select option {
 .hide {
   display: none;
 }
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Optional margin to separate the logo from other elements */
+}
