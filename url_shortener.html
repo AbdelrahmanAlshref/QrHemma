@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL shortener</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- QR Code CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper2"><img id="logo" src="hemma.jpg" alt="Logo" /></div>
+      <input type="text" id="originalUrl" placeholder="Enter URL" />
+      <div class="box">
+        <button id="short-btn">Generate</button>
+      </div>
+      <input type="text" id="shorten_link" placeholder="Shorten URL" />
+      <div class="box">
+        <button id="copy">Copy</button>
+      </div>
+      <div class="box">
+          <!-- Add arrow link to the URL shortener page -->
+          <a href="index.html" id="QRCode_Generator">Go to QR Code Generator &#8594;</a>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="urlscript.js"></script>
+  </body>
+</html>
